@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>www-data</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="www-data-permissions"><strong>www-data permissions</strong></h1>
+
+
+
+<h2 id="user-setup">User setup</h2>
+
+<p>So let’s start by adding the main user to the Apache user group:</p>
+
+<p><code>sudo usermod -a -G www-data demo</code></p>
+
+<p>That adds the user ‘demo’ to the ‘www-data’ group. Do ensure you use both the -a and the -G options with the usermod command shown above.</p>
+
+<p>You will need to log out and log back in again to enable the group change.</p>
+
+<p>Check the groups now:</p>
+
+<pre>groups
+...
+demo www-data
+</pre>
+
+<p>So now I am a member of two groups: My own (demo) and the Apache group (www-data).</p>
+
+
+
+<h2 id="folder-setup">Folder setup</h2>
+
+<p>Now we need to ensure the public_html folder is owned by the main user (demo) and is part of the Apache group (www-data).</p>
+
+<p>Let’s set that up:</p>
+
+<pre><code>sudo chgrp -R www-data /home/demo/public_html
+</code></pre>
+
+<p>As we are talking about permissions I’ll add a quick note regarding the sudo command: It’s a good habit to use absolute paths (/home/demo/public_html) as shown above rather than relative paths (~/public_html). It ensures sudo is being used in the correct location.</p>
+
+<p>If you have a public_html folder with symlinks in place then be careful with that command as it will follow the symlinks. In those cases of a working public_html folder, change each folder by hand.</p>
+
+
+
+<h2 id="setgid">Setgid</h2>
+
+<p>Good so far, but remember the command we just gave only affects existing folders. What about anything new?</p>
+
+<p>We can set the ownership so anything new is also in the ‘www-data’ group.</p>
+
+<p>The first command will change the permissions for the public_html directory to include the “setgid” bit:</p>
+
+<pre><code>sudo chmod 2750 /home/demo/public_html
+</code></pre>
+
+<p>That will ensure that any new files are given the group ‘www-data’. If you have subdirectories, you’ll want to run that command for each subdirectory (this type of permission doesn’t work with ‘-R’). Fortunately new subdirectories will be created with the ‘setgid’ bit set automatically.</p>
+
+<p>If we need to allow write access to Apache, to an uploads directory for example, then set the permissions for that directory like so:</p>
+
+<pre><code>sudo chmod 2770 /home/demo/public_html/domain1.com/public/uploads
+</code></pre>
+
+<p>The permissions only need to be set once as new files will automatically be assigned the correct ownership.</p>
+
+
+
+<h2 id="references">References</h2>
+
+<p><a href="http://articles.slicehost.com/2007/9/18/apache-virtual-hosts-permissions">http://articles.slicehost.com/2007/9/18/apache-virtual-hosts-permissions</a></p>
+
+<p><a href="http://stackoverflow.com/questions/9133024/www-data-permissions">http://stackoverflow.com/questions/9133024/www-data-permissions</a></p></div></body>
+</html>
