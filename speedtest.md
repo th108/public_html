@@ -1,0 +1,4 @@
+- http://bhs.proof.ovh.net
+- http://mojeip.speedtestcustom.com
+- https://www.backblaze.com/speedtest
+- http://www.dslreports.com/speedtest
