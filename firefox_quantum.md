@@ -17,3 +17,6 @@
 - `about:config`  
 - search: media*play
 - media.autoplay.enabled -> false
+
+**Disable Pocket**
+- extensions.pocket.enabled -> false
