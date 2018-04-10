@@ -51,3 +51,68 @@ user@localhost:~/temp/user.js$ git branch
   relaxed
   testing
 ```
+
+## Automatic Updating
+
+Create `/etc/systemd/system/update_git.service` first:
+
+```sh
+[Unit]
+Description=Update all git repos in ~/mirrorGit
+After=network.target
+
+[Service]
+Type=oneshot
+User=user
+ExecStart=/bin/sh -c '/home/user/mirrorGit/.update.sh >> /tmp/log-update_git'
+```
+
+Then create timer unit with the same name but with *.timer suffix `/etc/systemd/system/date.timer`:
+
+```sh
+[Unit]
+Description=Run update_git.service at 5AM and 10PM
+
+[Timer]
+OnCalendar=*-*-* 5,22:00
+RandomizedDelaySec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+```
+
+This config will run `update_git.service` every day at 5AM and 10PM with 1h variation.
+
+**NOTE:**
+
+If you decide to change the backup frequency, after modifying timer service, don’t forget to type:
+
+`systemctl daemon-reload`
+
+File `.update.sh` should contain:
+
+```sh
+#!/bin/sh
+
+date
+
+#update ~/mirrorGit
+/usr/bin/find /home/user/mirrorGit -maxdepth 1 -mindepth 1 -path '*/0mirror' -o -type d -exec bash -c "cd '{}' && pwd && git pull --all" \;
+
+#update ~/mirrorGit/0mirror
+/usr/bin/find /home/user/mirrorGit/0mirror -maxdepth 1 -mindepth 1 -type d -exec bash -c "cd '{}' && pwd && git remote -v update" \;
+
+echo
+```
+
+Add `update_git` to start-up: `systemctl enable update_git.timer`
+
+Start: `systemctl start update_git.timer`
+
+Check if working: `systemctl list-timers`
+
+```sh
+NEXT                          LEFT          LAST                          PASSED    UNIT                         ACTIVATES
+Tue 2018-04-10 22:52:58 CEST  2h 16min left Tue 2018-04-10 05:40:25 CEST  14h ago   update_git.timer             update_git.service
+```
