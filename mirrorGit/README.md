@@ -116,3 +116,8 @@ Check if working: `systemctl list-timers`
 NEXT                          LEFT          LAST                          PASSED    UNIT                         ACTIVATES
 Tue 2018-04-10 22:52:58 CEST  2h 16min left Tue 2018-04-10 05:40:25 CEST  14h ago   update_git.timer             update_git.service
 ```
+
+**Resources:**
+- [Scheduling tasks with systemd timers - CoreOS](https://coreos.com/os/docs/latest/scheduling-tasks-with-systemd-timers.html)
+- [RHEL7: How to use Systemd timers - certdepot.net](https://www.certdepot.net/rhel7-use-systemd-timers/)
+- [How to Use Systemd Timers - Jason's Blog](https://jason.the-graham.com/2013/03/06/how-to-use-systemd-timers/#running-multiple-scripts-on-the-same-timer)
