@@ -3,10 +3,14 @@ https://www.reddit.com/r/kde/
 https://www.reddit.com/r/debian  
 https://www.reddit.com/r/ubuntu  
 https://www.reddit.com/r/linux4noobs+linuxquestions  
+https://www.reddit.com/r/programming  
+https://www.reddit.com/r/golang  
+https://www.reddit.com/r/rust  
 https://www.reddit.com/r/ProgrammerHumor  
+https://www.reddit.com/r/linuxmemes  
+https://www.reddit.com/r/sysadminhumor  
 https://www.reddit.com/r/HomeNetworking  
 https://www.reddit.com/r/LXD+LXC  
-https://www.reddit.com/r/sysadminhumor  
 https://www.reddit.com/r/backblaze  
 https://www.reddit.com/r/networkingmemes  
 https://www.reddit.com/r/unixgore  
@@ -19,6 +23,16 @@ https://www.reddit.com/r/netsec
 https://www.reddit.com/r/security  
 https://www.reddit.com/r/linuxadmin  
 https://www.reddit.com/r/fuckgnome  
+https://www.reddit.com/r/programmingcirclejerk  
+https://www.reddit.com/r/LinuxCirclejerk  
+https://www.reddit.com/r/linux_cucks  
+https://www.reddit.com/r/fossworldproblems  
+https://www.reddit.com/r/StallmanWasRight  
+
+### Finding Subreddits
+- https://anvaka.github.io/redsim/
+- http://metareddit.com
+- http://redditlist.com
 
 ## Programming aggretators:  
 [dev.to](https://dev.to/)  
