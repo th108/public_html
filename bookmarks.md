@@ -67,3 +67,5 @@ https://discuss.linuxcontainers.org
 https://forum.snapcraft.io  
 https://discourse.appimage.org  
 https://forum.level1techs.com  
+https://forum.openwrt.org  
+https://forums.lawrencesystems.com  
