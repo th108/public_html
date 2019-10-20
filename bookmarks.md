@@ -44,6 +44,11 @@ https://www.reddit.com/r/StallmanWasRight
 [notabug.io](https://notabug.io)  
 [lobste.rs](https://lobste.rs)  
 
+## Finding awesome software:
+[sysadmin.it-landscape.info](https://sysadmin.it-landscape.info)
+[alternativeto.net](https://alternativeto.net)
+[lucidindex](https://lucidindex.com/search)
+
 https://securityaffairs.co/wordpress/  
 http://computernewb.com/  
 http://ghacks.net  
