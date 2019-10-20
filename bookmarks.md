@@ -45,9 +45,9 @@ https://www.reddit.com/r/StallmanWasRight
 [lobste.rs](https://lobste.rs)  
 
 ## Finding awesome software:
-[sysadmin.it-landscape.info](https://sysadmin.it-landscape.info)
-[alternativeto.net](https://alternativeto.net)
-[lucidindex](https://lucidindex.com/search)
+[sysadmin.it-landscape.info](https://sysadmin.it-landscape.info)  
+[alternativeto.net](https://alternativeto.net)  
+[lucidindex](https://lucidindex.com/search)  
 
 https://securityaffairs.co/wordpress/  
 http://computernewb.com/  
