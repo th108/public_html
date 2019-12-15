@@ -39,6 +39,7 @@ https://www.reddit.com/r/StallmanWasRight
 [hackernoon.com](https://hackernoon.com)  
 [hackr.io](https://hackr.io)  
 [codementor.io](https://codementor.io)  
+[hackster.io](https://www.hackster.io)  
 
 ## Programming News aggretators:  
 [notabug.io](https://notabug.io)  
