@@ -75,3 +75,5 @@ https://discourse.appimage.org
 https://forum.level1techs.com  
 https://forum.openwrt.org  
 https://forums.lawrencesystems.com  
+https://discourse.flathub.org  
+https://forum.disroot.org  
