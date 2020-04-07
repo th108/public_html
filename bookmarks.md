@@ -77,3 +77,5 @@ https://forum.openwrt.org
 https://forums.lawrencesystems.com  
 https://discourse.flathub.org  
 https://forum.disroot.org  
+https://discourse.geek-kitchen.funkypenguin.co.nz  
+https://talk.libreho.st  
