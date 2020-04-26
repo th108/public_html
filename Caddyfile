@@ -1,0 +1,17 @@
+{
+	admin off
+	experimental_http3
+}
+
+https://:5001 {
+	respond /ping "pong" 200
+	respond /favicon.ico 200
+	log stdout
+	file_server {
+		browse
+		hide Caddyfile.rc1 .directory caddy favicon.ico
+	}
+	tls internal {
+		on_demand
+	}
+}
