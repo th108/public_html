@@ -49,6 +49,8 @@ https://www.reddit.com/r/StallmanWasRight
 [sysadmin.it-landscape.info](https://sysadmin.it-landscape.info)  
 [alternativeto.net](https://alternativeto.net)  
 [lucidindex](https://lucidindex.com/search)  
+[switching.software](https://switching.software/)  
+[saashub.com](https://www.saashub.com/)  
 
 https://securityaffairs.co/wordpress/  
 http://computernewb.com/  
