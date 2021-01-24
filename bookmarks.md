@@ -51,6 +51,7 @@ https://www.reddit.com/r/StallmanWasRight
 [lucidindex](https://lucidindex.com/search)  
 [switching.software](https://switching.software/)  
 [saashub.com](https://www.saashub.com/)  
+[nomoregoogle](https://nomoregoogle.com/)  
 
 https://securityaffairs.co/wordpress/  
 http://computernewb.com/  
