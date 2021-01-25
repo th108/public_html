@@ -52,6 +52,7 @@ https://www.reddit.com/r/StallmanWasRight
 [switching.software](https://switching.software/)  
 [saashub.com](https://www.saashub.com/)  
 [nomoregoogle](https://nomoregoogle.com/)  
+[degoogle](https://degoogle.jmoore.dev/)  
 
 https://securityaffairs.co/wordpress/  
 http://computernewb.com/  
