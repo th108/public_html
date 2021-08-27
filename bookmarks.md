@@ -77,9 +77,11 @@ https://discuss.linuxcontainers.org
 https://forum.snapcraft.io  
 https://discourse.appimage.org  
 https://forum.level1techs.com  
+https://discourse.destinationlinux.network  
 https://forum.openwrt.org  
 https://forums.lawrencesystems.com  
 https://discourse.flathub.org  
 https://forum.disroot.org  
 https://discourse.geek-kitchen.funkypenguin.co.nz  
 https://talk.libreho.st  
+https://forum.gitlab.com  
