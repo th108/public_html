@@ -44,6 +44,7 @@ https://www.reddit.com/r/StallmanWasRight
 ## Programming News aggretators:  
 [notabug.io](https://notabug.io)  
 [lobste.rs](https://lobste.rs)  
+[tuxurls.com](https://tuxurls.com/)  
 
 ## Finding awesome software:
 [sysadmin.it-landscape.info](https://sysadmin.it-landscape.info)  
