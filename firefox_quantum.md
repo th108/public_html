@@ -20,3 +20,6 @@
 
 **Disable Pocket**
 - extensions.pocket.enabled -> false
+
+**Fix Popup 'choose an application to open the localhost link'**
+- widget.use-xdg-desktop-portal.mime-handler -> 0
