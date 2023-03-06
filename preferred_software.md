@@ -1,14 +1,14 @@
 | Category | Software |
 | --- | --- |
 | Office | LibreOffice |
-| Photo Editor| GIMP, darktable |
+| Photo Editor| GIMP \| [ansel\*](https://github.com/aurelienpierreeng/ansel) |
 | Image Viewer | qimgv |
 | Screen Recorder | ffmpeg |
-| Web Browser | Firefox, Chromium |
+| Web Browser | Firefox \| Chromium |
 | Torrent Client | qBittorrent |
 | EMail Client | |
-| IM client | Telegram, Viber |
-| Audio Player | ~~QuodLibet~~, Audacious, Spotify |
+| IM client | Telegram \| Viber\** |
+| Audio Player | ~~QuodLibet~~ \| Audacious \| Spotify\** |
 | Video Player | mpv |
 | PDF Viewer | qpdfview |
 | Terminal | konsole |
@@ -20,3 +20,7 @@
 | Accessories | Kcalc, KCharSelect |
 | Remote desktop | rustdesk? |
 | System Monitoring | KSysGuard |
+| System utilities | gParted |
+
+\*A = AppImage  
+\*F = Flatpak
