@@ -23,3 +23,6 @@
 
 **Fix Popup 'choose an application to open the localhost link'**
 - widget.use-xdg-desktop-portal.mime-handler -> 0
+
+**WebRTC exposes LAN IP address, breaks peer-to-peer websites (e.g. peertube)**
+- media.peerconnection.enabled -> false
