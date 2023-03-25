@@ -11,3 +11,5 @@
 - sar
 - sysstat
 - nmon
+- iotop
+- fatrace
