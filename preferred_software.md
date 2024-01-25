@@ -19,8 +19,8 @@
 | ArchiveManger | ~~Ark~~ LXQt Archiver |
 | Accessories | Kcalc, KCharSelect |
 | Remote desktop | rustdesk? |
-| System Monitoring | KSysGuard && [Resources\**](https://flathub.org/apps/net.nokyan.Resources) |
-| System utilities | gParted |
+| System Monitoring | KSysGuard && [Resources\**](https://flathub.org/apps/net.nokyan.Resources) && [Mission Center\**](https://flathub.org/apps/io.missioncenter.MissionCenter) |
+| System utilities | ~~gParted~~ GNOME Disks |
 | Wine Manager | Bottles\** |
 
 \* = AppImage  
