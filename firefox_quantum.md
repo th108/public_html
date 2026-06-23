@@ -26,3 +26,6 @@
 
 **WebRTC exposes LAN IP address, breaks peer-to-peer websites (e.g. peertube)**
 - media.peerconnection.enabled -> false
+
+**Bring back compact mode**
+- https://support.mozilla.org/en-US/kb/compact-mode-workaround-firefox
